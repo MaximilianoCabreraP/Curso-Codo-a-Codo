@@ -1,5 +1,24 @@
 .edificios{
     text-align: center;
+	color: black;
+}
+.edificios:visited{
+	color:purple;
+}
+.edificios:hover{
+	color: #99F;
+}
+
+.volver{
+	text-decoration: underline;
+  	float: right;
+  	font-size: 1.2vh;
+}
+.volver:visited{
+	color: purple;
+}
+.volver:hover{
+	color: #99F;
 }
 
 .row {
@@ -10,8 +29,8 @@
   
   /* Create four equal columns that sits next to each other */
 .column {
-    flex: 25%;
-    max-width: 25%;
+    flex: 100%;
+    max-width: 100%;
     padding: 0 4px;
 }
   
@@ -20,19 +39,24 @@
     vertical-align: middle;
     width: 100%;
 }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+
+/* Tablet */
+@media all and (min-width: 267px) {
+	.column {
+		flex: 50%;
+		max-width: 50%;
+	}
+	.volver{
+		font-size: 2vh;
+	}
+}
+/* Desktop Menu */
+@media all and (min-width: 960px) {
     .column {
-      flex: 50%;
-      max-width: 50%;
+        flex: 25%;
+        max-width: 25%;
     }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
+	.volver{
+        font-size: 2vh;
     }
-  }
+}

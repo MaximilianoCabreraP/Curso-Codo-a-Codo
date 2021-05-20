@@ -12,8 +12,10 @@
 
     <!-- Imported CSS-->
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <!-- CSS Propios -->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/menu.css">
@@ -21,52 +23,63 @@
 </head>
 
 <body>
-    <nav>
-        <ul class="menu">
-            <li class="logo"><a href="../index.html"></a></li>
-            <li class="item"><a href="./nosotros.html">Empresa</a></li>
-            <li class="item"><a href="./grandOpen.html">Grand Open</a></li>
-            <li class="item has-submenu">
-                <a tabindex="0">Departamentos</a>
-                <ul class="submenu">
-                    <li class="subitem"><a href="#">Nuevos Proyectos</a></li>
-                    <li class="subitem"><a href="#">Concluidos</a></li>
-                    <li class="subitem"><a href="#">En Obra</a></li>
-                    <li class="subitem"><a href="#">Evolución</a></li>
-                </ul>
-            </li>
-            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <h1>Grand Open</h1>
-        <div class="row">
-            <div class="column">
-                <picture class="edificios">
-                    <img src="../images/grandOpen/fiama_2.jpg">
-                    <h4>Fiama 2</h4>
-                </picture>
-            </div>
-            <div class="column">
-                <picture class="edificios">
-                    <img src="../images/grandOpen/la_martina.jpg">
-                    <h4>La Martina</h4>
-                </picture>
-            </div>
-            <div class="column">
-                <picture class="edificios">
-                    <img src="../images/grandOpen/la_juana.jpg">
-                    <h4>La Juana</h4>
-                </picture>
-            </div>
-            <div class="column">
-                <picture class="edificios">
-                    <img src="../images/gris.jpg">
-                    <img src="../images/gris.jpg" style="height: 20px; width: 35%; margin-left: 35%;">
-                </picture>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="../index.html"></a></li>
+                <li class="item"><a href="./nosotros.html">Empresa</a></li>
+                <li class="item"><a href="./grandOpen.html">Grand Open</a></li>
+                <li class="item"><a href="./donde_estamos.html">¿Dónde Estamos?</a></li>
+                <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <div class="container">
+            <h1 class="titulo">Grand Open</h1>
+            <div class="row">
+                <div class="column">
+                    <a class="edificios" href="../views/grandOpen/fiama_1.html">
+                        <picture>
+                            <img src="../images/grandOpen/fiama_1.jpg">
+                            <h4>Fiama 1</h4>
+                        </picture>
+                    </a>
+                </div>
+                <div class="column">
+                    <a class="edificios" href="../views/grandOpen/la_martina.html">
+                        <picture>
+                            <img src="../images/grandOpen/la_martina.jpg">
+                            <h4>La Martina</h4>
+                        </picture>
+                    </a>
+                </div>
+                <div class="column">
+                    <a class="edificios" href="../views/grandOpen/la_juana.html">
+                        <picture>
+                            <img src="../images/grandOpen/la_juana.jpg">
+                            <h4>La Juana</h4>
+                        </picture>
+                    </a>
+                </div>
+                <div class="column">
+                    <a class="edificios" href="../views/grandOpen/la_lucia.html">
+                        <picture>
+                            <img src="../images/grandOpen/la_lucia.jpg">
+                            <h4>La Lucia</h4>
+                        </picture>
+                    </a>
+                </div>
+                <!-- <div class="column">
+                    <picture class="edificios">
+                        <img src="../images/gris.jpg">
+                        <img src="../images/gris.jpg" style="height: 20px; width: 35%; margin-left: 35%;">
+                    </picture>
+                </div> -->
             </div>
         </div>
-    </div>
+    </article>
+    <footer>Copyright</footer>
 
     <!-- Imported JS -->
     <!-- JS Jquery-->
