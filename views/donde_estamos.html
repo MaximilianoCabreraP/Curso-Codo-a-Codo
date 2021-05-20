@@ -12,12 +12,17 @@
 
     <!-- Imported CSS-->
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
     <!-- CSS FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS Propios -->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/menu.css">
@@ -41,12 +46,9 @@
             <div class="row">
                 <div class="donde_estamos">
                     <h2 class="titulo">¿Dónde Estamos? <i class="fas fa-map-marked-alt"></i></h2><br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1380.8956523039863!2d-58.38827755367563!3d-34.59551575426529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab94dcf14c9%3A0xc1e5853355db4f54!2sParan%C3%A1%201154%2C%20C1018%20ADC%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1621366265691!5m2!1ses-419!2sar" 
-                            width="100%"
-                            height="350"
-                            style="border:0;"
-                            allowfullscreen=""
-                            loading="lazy">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1380.8956523039863!2d-58.38827755367563!3d-34.59551575426529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab94dcf14c9%3A0xc1e5853355db4f54!2sParan%C3%A1%201154%2C%20C1018%20ADC%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1621366265691!5m2!1ses-419!2sar"
+                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
                     </iframe>
                 </div>
                 <hr>
@@ -63,22 +65,36 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="email">Email</label>
-                                    <input type="text" class="form-control" id="email" placeholder="HanSolo@starwars.com">
+                                    <input type="text" class="form-control" id="email"
+                                        placeholder="HanSolo@starwars.com">
                                 </div>
                                 <div class="col-sm-12">
                                     <label>Consulta</label>
-                                    <textarea type="text" class="form-control" id="consulta" placeholder="consulta..."></textarea>
+                                    <textarea type="text" class="form-control" id="consulta"
+                                        placeholder="consulta..."></textarea>
                                 </div>
                             </div>
                         </div>
-                        <button onclick="mostrarMensaje(event)" class="btn btn-primary">Enviar Consulta <i class="far fa-paper-plane"></i></button>
+                        <button onclick="mostrarMensaje(event)" class="btn btn-dark btn-enviar">Enviar Consulta <i
+                                class="far fa-paper-plane"></i></button>
                     </form>
                 </div>
                 <div class="col-sm-3"></div>
             </div>
         </div>
     </article>
-    <footer>Copyright</footer>
+    <footer>
+        <div class="icons py-2">
+            <a class="icon" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="icon" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="icon" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a class="icon" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="icon" href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <div class="copyright text-center py-3">© 2021 Copyright:
+            <a href="http://estilohat.com.ar/" target="_blank"> www.estilohat.com.ar</a>
+        </div>
+    </footer>
 
     <!-- Imported JS -->
     <!-- JS Jquery-->
