@@ -21,6 +21,12 @@
 	color: #99F;
 }
 
+.iframe-video{
+    min-width: 100px;
+    min-height: 70px;
+    width: 150px;
+    height: 70px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -46,15 +52,29 @@
 		flex: 50%;
 		max-width: 50%;
 	}
+    .iframe-video{
+        width: 250px;
+        height: 150px;
+    }
 	.volver{
 		font-size: 2vh;
 	}
+}
+@media all and (min-width: 490px){
+    .iframe-video{
+        width: 450px;
+        height: 300px;
+    }
 }
 /* Desktop Menu */
 @media all and (min-width: 960px) {
     .column {
         flex: 25%;
         max-width: 25%;
+    }
+    .iframe-video{
+        width: 550px;
+        height: 350px;
     }
 	.volver{
         font-size: 2vh;
