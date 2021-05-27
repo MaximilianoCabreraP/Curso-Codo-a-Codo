@@ -41,8 +41,8 @@
 }
 /* buttons, no circle */
 .flickity-prev-next-button {
-    width: 60px;
-    height: 60px;
+    width: 15px;
+    height: 15px;
     background: transparent;
     opacity: 0.6;
 }
@@ -56,4 +56,23 @@
 }
 .flickity-prev-next-button.no-svg {
     color: white;
+}
+
+@media all and (min-width: 267px) {
+    .flickity-prev-next-button {
+        width: 25px;
+        height: 25px;
+    }
+}
+@media all and (min-width: 500px) {
+    .flickity-prev-next-button {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media all and (min-width: 501px) {
+    .flickity-prev-next-button {
+        width: 60px;
+        height: 60px;
+    }
 }

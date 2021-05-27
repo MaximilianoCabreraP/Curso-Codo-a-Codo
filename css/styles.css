@@ -5,8 +5,9 @@
 	font-family: 'Roboto Condensed', sans-serif;
 }
 article {
-	min-height: 500px;
+	min-height: calc(100vh - 100px - 100px);
 }
+
 ul, li {
     padding-left:0;
     margin-left:0;
@@ -50,7 +51,7 @@ body{
 	justify-content: center;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.4);
-	font-size: 6vh;
+	font-size: 2vh;
 }
 .icon{
 	padding: 10px;
@@ -74,9 +75,15 @@ body{
 	.titulo {
 		font-size: 3vh;
 	}
+	.icon{
+		padding: 0 4px;
+	}
 }
 @media all and (min-width: 700px) {
 	.titulo {
 		font-size: 4vh;
+	}
+	.icon{
+		padding: 0 8px;
 	}
 }
